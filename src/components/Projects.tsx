@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FolderGit2, ExternalLink, Github, Star } from 'lucide-react';
-import { portfolioData, Project } from '../data/portfolioData';
+import { portfolioData, type Project } from '../data/portfolioData';
 
 export const Projects: React.FC = () => {
   const { projects } = portfolioData;
