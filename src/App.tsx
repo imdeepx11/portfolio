@@ -34,16 +34,8 @@ export function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 relative selection:bg-indigo-500/30 selection:text-indigo-300">
-      {/* Subtle background grid pattern */}
-      <div 
-        className="fixed inset-0 pointer-events-none opacity-[0.03] z-0" 
-        style={{
-          backgroundImage: `radial-gradient(#ffffff 1px, transparent 1px)`,
-          backgroundSize: '24px 24px',
-        }}
-      />
-
+    <div className="min-h-screen relative">
+      {/* Background is handled in index.css */}
       <Navbar activeSection={activeSection} />
       
       <main className="relative z-10 space-y-0">
